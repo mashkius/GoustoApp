@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		958659861D0B728700DB8FE8 /* GoustoProductAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958659851D0B728700DB8FE8 /* GoustoProductAttribute.swift */; };
+		958659881D0C197E00DB8FE8 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958659871D0C197E00DB8FE8 /* ProductCell.swift */; };
 		95D6FE011D0AEDE80013BE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6FE001D0AEDE80013BE96 /* AppDelegate.swift */; };
-		95D6FE031D0AEDE80013BE96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6FE021D0AEDE80013BE96 /* ViewController.swift */; };
 		95D6FE061D0AEDE80013BE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D6FE041D0AEDE80013BE96 /* Main.storyboard */; };
 		95D6FE081D0AEDE80013BE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D6FE071D0AEDE80013BE96 /* Assets.xcassets */; };
 		95D6FE0B1D0AEDE80013BE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D6FE091D0AEDE80013BE96 /* LaunchScreen.storyboard */; };
 		95D6FE161D0AEDE80013BE96 /* GoustoTrialProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6FE151D0AEDE80013BE96 /* GoustoTrialProjectTests.swift */; };
+		95D6FE211D0AF2910013BE96 /* GoustoFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6FE201D0AF2910013BE96 /* GoustoFeedStore.swift */; };
+		95D6FE231D0AF4730013BE96 /* CategoriesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6FE221D0AF4730013BE96 /* CategoriesListVC.swift */; };
+		95D6FE251D0AF4880013BE96 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6FE241D0AF4880013BE96 /* ProductsVC.swift */; };
+		95D6FE271D0AF5A30013BE96 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6FE261D0AF5A30013BE96 /* ProductDetailVC.swift */; };
+		95D6FE291D0B432B0013BE96 /* StoreConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6FE281D0B432B0013BE96 /* StoreConnection.swift */; };
+		95D6FE2B1D0B4C0D0013BE96 /* GoustoCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6FE2A1D0B4C0D0013BE96 /* GoustoCategory.swift */; };
+		95D6FE2F1D0B4C700013BE96 /* GoustoProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D6FE2E1D0B4C700013BE96 /* GoustoProduct.swift */; };
+		95F82F1F1D0C77F200035103 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F82F1E1D0C77F200035103 /* Default-568h@2x.png */; };
+		95F82F231D0C832400035103 /* DataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F82F221D0C832400035103 /* DataLoadingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		958659851D0B728700DB8FE8 /* GoustoProductAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoustoProductAttribute.swift; path = ../GoustoProductAttribute.swift; sourceTree = "<group>"; };
+		958659871D0C197E00DB8FE8 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCell.swift; path = ../ProductCell.swift; sourceTree = "<group>"; };
 		95D6FDFD1D0AEDE80013BE96 /* GoustoTrialProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoustoTrialProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D6FE001D0AEDE80013BE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95D6FE021D0AEDE80013BE96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95D6FE051D0AEDE80013BE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95D6FE071D0AEDE80013BE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95D6FE0A1D0AEDE80013BE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +47,15 @@
 		95D6FE111D0AEDE80013BE96 /* GoustoTrialProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoustoTrialProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D6FE151D0AEDE80013BE96 /* GoustoTrialProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoustoTrialProjectTests.swift; sourceTree = "<group>"; };
 		95D6FE171D0AEDE80013BE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D6FE201D0AF2910013BE96 /* GoustoFeedStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoustoFeedStore.swift; path = ../GoustoFeedStore.swift; sourceTree = "<group>"; };
+		95D6FE221D0AF4730013BE96 /* CategoriesListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesListVC.swift; path = ../CategoriesListVC.swift; sourceTree = "<group>"; };
+		95D6FE241D0AF4880013BE96 /* ProductsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductsVC.swift; path = ../ProductsVC.swift; sourceTree = "<group>"; };
+		95D6FE261D0AF5A30013BE96 /* ProductDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductDetailVC.swift; path = ../ProductDetailVC.swift; sourceTree = "<group>"; };
+		95D6FE281D0B432B0013BE96 /* StoreConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoreConnection.swift; path = ../StoreConnection.swift; sourceTree = "<group>"; };
+		95D6FE2A1D0B4C0D0013BE96 /* GoustoCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoustoCategory.swift; path = ../GoustoCategory.swift; sourceTree = "<group>"; };
+		95D6FE2E1D0B4C700013BE96 /* GoustoProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoustoProduct.swift; path = ../GoustoProduct.swift; sourceTree = "<group>"; };
+		95F82F1E1D0C77F200035103 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		95F82F221D0C832400035103 /* DataLoadingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataLoadingVC.swift; path = ../DataLoadingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9500B5771D0F1B5D005301BF /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95F82F221D0C832400035103 /* DataLoadingVC.swift */,
+				95D6FE221D0AF4730013BE96 /* CategoriesListVC.swift */,
+				95D6FE241D0AF4880013BE96 /* ProductsVC.swift */,
+				95D6FE261D0AF5A30013BE96 /* ProductDetailVC.swift */,
+			);
+			name = VIewControllers;
+			sourceTree = "<group>";
+		};
+		9500B5781D0F1CE2005301BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				958659871D0C197E00DB8FE8 /* ProductCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		95D6FDF41D0AEDE80013BE96 = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +117,14 @@
 			isa = PBXGroup;
 			children = (
 				95D6FE001D0AEDE80013BE96 /* AppDelegate.swift */,
-				95D6FE021D0AEDE80013BE96 /* ViewController.swift */,
+				95D6FE2C1D0B4C1B0013BE96 /* Models */,
+				9500B5771D0F1B5D005301BF /* VIewControllers */,
+				9500B5781D0F1CE2005301BF /* Views */,
+				95D6FE2D1D0B4C260013BE96 /* Store */,
 				95D6FE041D0AEDE80013BE96 /* Main.storyboard */,
 				95D6FE071D0AEDE80013BE96 /* Assets.xcassets */,
 				95D6FE091D0AEDE80013BE96 /* LaunchScreen.storyboard */,
+				95F82F1E1D0C77F200035103 /* Default-568h@2x.png */,
 				95D6FE0C1D0AEDE80013BE96 /* Info.plist */,
 			);
 			path = GoustoTrialProject;
@@ -94,6 +137,25 @@
 				95D6FE171D0AEDE80013BE96 /* Info.plist */,
 			);
 			path = GoustoTrialProjectTests;
+			sourceTree = "<group>";
+		};
+		95D6FE2C1D0B4C1B0013BE96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				958659851D0B728700DB8FE8 /* GoustoProductAttribute.swift */,
+				95D6FE2E1D0B4C700013BE96 /* GoustoProduct.swift */,
+				95D6FE2A1D0B4C0D0013BE96 /* GoustoCategory.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		95D6FE2D1D0B4C260013BE96 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				95D6FE201D0AF2910013BE96 /* GoustoFeedStore.swift */,
+				95D6FE281D0B432B0013BE96 /* StoreConnection.swift */,
+			);
+			name = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +242,7 @@
 				95D6FE0B1D0AEDE80013BE96 /* LaunchScreen.storyboard in Resources */,
 				95D6FE081D0AEDE80013BE96 /* Assets.xcassets in Resources */,
 				95D6FE061D0AEDE80013BE96 /* Main.storyboard in Resources */,
+				95F82F1F1D0C77F200035103 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +260,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95D6FE031D0AEDE80013BE96 /* ViewController.swift in Sources */,
+				95D6FE2F1D0B4C700013BE96 /* GoustoProduct.swift in Sources */,
+				95D6FE251D0AF4880013BE96 /* ProductsVC.swift in Sources */,
+				95D6FE291D0B432B0013BE96 /* StoreConnection.swift in Sources */,
+				95F82F231D0C832400035103 /* DataLoadingVC.swift in Sources */,
+				95D6FE271D0AF5A30013BE96 /* ProductDetailVC.swift in Sources */,
+				958659861D0B728700DB8FE8 /* GoustoProductAttribute.swift in Sources */,
+				95D6FE2B1D0B4C0D0013BE96 /* GoustoCategory.swift in Sources */,
+				95D6FE231D0AF4730013BE96 /* CategoriesListVC.swift in Sources */,
+				958659881D0C197E00DB8FE8 /* ProductCell.swift in Sources */,
 				95D6FE011D0AEDE80013BE96 /* AppDelegate.swift in Sources */,
+				95D6FE211D0AF2910013BE96 /* GoustoFeedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +460,7 @@
 				95D6FE1C1D0AEDE80013BE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95D6FE1D1D0AEDE80013BE96 /* Build configuration list for PBXNativeTarget "GoustoTrialProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +469,7 @@
 				95D6FE1F1D0AEDE80013BE96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
